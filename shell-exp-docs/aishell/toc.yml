@@ -1,0 +1,27 @@
+items:
+  - name: What is AIShell?
+    href: overview.md
+  - name: Install AIShell
+    href: install.md
+  - name: Get started with AIShell in PowerShell
+    href: get-started-powershell.md
+  - name: Get started with AIShell (standalone)
+    href: get-started-standalone.md
+  - name: AIShell FAQ
+    href: FAQ.md
+  - name: Reference
+    items:
+      - name: Azure agent README
+        href: agent-azure.md
+      - name: OpenAI agent README
+        href: agent-openai.md
+      - name: AIShell command reference
+        href: aishell-reference.md
+  - name: Developer guide
+    items:
+      - name: Architecture of AIShell
+        href: agent-architecture.md
+      - name: How to create an agent for Ollama
+        href: create-ollama-agent.md
+      - name: Ollama agent README
+        href: ollama-agent-readme.md
