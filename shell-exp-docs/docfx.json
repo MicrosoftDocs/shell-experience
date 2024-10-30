@@ -2,7 +2,7 @@
   "build": {
     "content": [
       {
-        "files": ["**/*.md","**/*.yml"],
+        "files": ["*.md","*.yml","**/*.md","**/*.yml"],
         "exclude": ["**/obj/**","**/includes/**","_themes/**","**/docfx.json","_repo.en-us/**","*.md"]
       }
     ],
