@@ -48,7 +48,7 @@ Azure Agent
 
 You can switch between agents using the `@<agentName>` syntax in your chat messages. For example,
 
-![An animation showing switching between two agents with the @ sign](/docs/media/SwitchingAgents.gif)
+![An animation showing switching between two agents with the @ sign][01]
 
 You can also use a chat command to switch agents. For example, to switch to the `openai-gpt` agent,
 use `/agent use openai-gpt`.
@@ -82,3 +82,6 @@ custom key bindings will be supported in a future release.
 | --------------------------------------------- | ---------------- | --------------------------------------------------- |
 | <kbd>Ctrl+d</kbd><kbd>Ctrl</kbd>+<kbd>c</kbd> | `/code copy`     | Copy _all_ the generated code snippets to clipboard |
 | <kbd>Ctrl</kbd>+<kbd>\<n\></kbd>              | `/code copy <n>` | Copy the _n-th_ generated code snippet to clipboard |
+
+<!-- link references -->
+[01]: media/SwitchingAgents.gif

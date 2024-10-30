@@ -20,8 +20,8 @@ items:
   - name: Developer guide
     items:
       - name: Architecture of AIShell
-        href: agent-architecture.md
+        href: developer/agent-architecture.md
       - name: How to create an agent for Ollama
-        href: create-ollama-agent.md
+        href: developer/create-ollama-agent.md
       - name: Ollama agent README
-        href: ollama-agent-readme.md
+        href: developer/ollama-agent-readme.md

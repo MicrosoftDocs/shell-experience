@@ -47,4 +47,4 @@ documentation for your terminal application to see if it supports this feature.
 <!-- link references -->
 [01]: agent-azure.md
 [02]: agent-openai.md
-[03]: development/agent-architecture.md
+[03]: developer/agent-architecture.md

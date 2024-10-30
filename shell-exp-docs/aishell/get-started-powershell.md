@@ -15,7 +15,7 @@ examples to get started with AIShell.
 Use the `Start-AIShell` command in the **AIShell** module to open a split pane experience in Windows
 Terminal. When AIShell starts, it prompts you to choose an agent.
 
-![An animation showing Getting Started with AIShell.](./media/startAISHell.gif)
+![An animation showing Getting Started with AIShell.][01]
 
 ## Using AIShell
 
@@ -48,13 +48,13 @@ Azure Agent
 
 Here's a quick demo showing the Azure Agent in action:
 
-![An animation showing Azure Agent in action.](/docs/media/AzureAgent.gif)
+![An animation showing Azure Agent in action.][02]
 
 ### Switching Agents
 
 You can switch between agents using the `@<agentName>` syntax in your chat messages. For example,
 
-![An animation showing switching between two agents with the @ sign](/docs/media/SwitchingAgents.gif)
+![An animation showing switching between two agents with the @ sign][06]
 
 You can also use a chat command to switch agents. For example, to switch to the `openai-gpt` agent,
 use `/agent use openai-gpt`.
@@ -86,7 +86,7 @@ the code from the response into the working shell. This is the simplest way to q
 you need to run in your shell. You can also use the hot key <kbd>Ctrl</kbd>+<kbd>d</kbd>,
 <kbd>Ctrl</kbd>+<kbd>d</kbd> to insert the code into the working shell.
 
-![An animation showing Inserting Code with AIShell.](/docs/media/InsertCode.gif)
+![An animation showing Inserting Code with AIShell.][03]
 
 ### Key bindings for commands
 
@@ -106,11 +106,19 @@ If you encounter an error in your working terminal, you can use the `Resolve-Err
 that error to the open AIShell window for resolution. This command asks the AI model to help you
 resolve the error.
 
-![An animation showing Resolving Errors with AIShell.](/docs/media/ResolveError.gif)
+![An animation showing Resolving Errors with AIShell.][05]
 
 ### Invoking AIShell
 
 You can use the `Invoke-AIShell` cmdlet to send queries to the current agent in the open AIShell window.
 This command allows you to interact with the AI model from your working terminal.
 
-![An animation using Invoke-AIShell.](/docs/media/InvokeAIShell.gif)
+![An animation using Invoke-AIShell.][04]
+
+<!-- link references -->
+[01]: media/startAISHell.gif
+[02]: media/AzureAgent.gif
+[03]: media/InsertCode.gif
+[04]: media/InvokeAIShell.gif
+[05]: media/ResolveError.gif
+[06]: media/SwitchingAgents.gif
