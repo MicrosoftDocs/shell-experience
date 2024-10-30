@@ -11,9 +11,10 @@ This page provides help with common questions about AIShell, also known as Proje
 
 ## What is Project Mercury?
 
-**Project Mercury** is a platform that provides a framework for developers to build their own AI
-Agents and assistance providers for an AI Shell. Agents provide the user experience for the LLM and
-are deeply connected to PowerShell 7. For more, see the [AIShell architecture][03].
+**Project Mercury** was the code name for AIShell and is a platform that provides a framework for
+developers to build their own AI Agents and assistance providers for an AI Shell. Agents provide the
+user experience for the LLM and are deeply connected to PowerShell 7. For more, see the
+[AIShell architecture][03].
 
 ## What are agents?
 
@@ -24,7 +25,7 @@ agents:
 
 Agent README files:
 
-- [`az-cli` & `az-ps`][01]
+- [`azure`][01]
 - [`openai-gpt`][02]
 
 An assistance provider is an agent that provides user assistance without using a language
@@ -32,7 +33,7 @@ model or AI engine.
 
 ## What operating systems are supported?
 
-We have tested on macOS and Windows operating systems. **Project Mercury** may work on linux but we
+We have tested on macOS and Windows operating systems. **AIShell** may work on linux but we
 haven't tested it can't guarantee that all features will work as expected.
 
 ## How do I get a split pane experience in my Terminal?
@@ -43,6 +44,8 @@ documentation for your terminal application to see if it supports this feature.
 
 > [!NOTE]
 > Not all terminal applications support this feature.
+
+We have made this experience easier when using PowerShell 7 and Windows Terminal. For more information see [Get started with AIShell in PowerShell](./get-started-powershell.md).
 
 <!-- link references -->
 [01]: agent-azure.md
