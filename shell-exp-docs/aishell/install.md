@@ -21,23 +21,17 @@ AIShell is supported on the following platforms:
 <!-- markdownlint-disable MD023 MD024 MD051 -->
 ### [Windows](#tab/windows)
 
-Windows
-
 - Windows 10 or higher
 - PowerShell 7.4 or higher
 - Windows Terminal
 
 ### [macOS](#tab/macos)
 
-macOS
-
 - macOS v13 Ventura or higher
 - PowerShell 7.4 or higher
 - iTerm2
 
 ### [Linux](#tab/linux)
-
-Linux
 
 - Ubuntu 20.04 or higher
 - PowerShell 7.4 or higher (recommended)
