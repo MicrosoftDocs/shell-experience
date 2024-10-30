@@ -12,20 +12,25 @@ examples to get started with AIShell.
 
 ## Starting AIShell
 
-Run the `aish` command in the shell of your choice. AIShell starts in a new terminal window and
-prompts you to choose an agent.
+Run the `aish` command in the shell of your choice. AIShell starts in a new full screen shell window
+and prompts you to choose an agent.
 
 ## Using AIShell
 
-Now that you have selected an agent, you can begin chatting with it. The installed Azure OpenAI
-agent is configured to be a PowerShell expert. This means we've modified the AI system prompt
-to say it should act like a PowerShell expert. It's not trained on any specific PowerShell code or
-documentation. In the final version, you must configure the agent with your endpoint, API keys,
-and system prompt before using it. For this walkthrough, we've performed these steps for you.
+Now that you have selected an agent, you can begin chatting with it. If you plan to use the Azure
+OpenAI agent, you will have to configure it with your endpoint, API keys, and system prompt before
+using it. You can do so by selecting the agent and then running `/agent config`. Within the JSON
+config file that is opened you will have to provide your endpoint, deployment name, model version
+and API key. You can configure the system prompt property to better ground the model to your
+specific use cases, the default included is for a PowerShell expert. Additionally if you wish you
+use OpenAI you can configure the agent with just your API key from OpenAI in the commented out
+example in the JSON file.
+
+![An animation showing Getting Started with AIShell.][01]
 
 The Azure agent is designed to bring the Copilot in Azure experience directly to your command line.
 It provides assistance for Azure CLI and Azure PowerShell commands. To use this agent, you need to
-sign into Azure using the `az login` or `Connect-AzAccount` commands.
+sign into Azure using the `az login` command from Azure CLI.
 
 ## Use AIShell to interact with the agents
 
@@ -73,6 +78,10 @@ list of commands, use the `/help` command in the chat session.
   /retry     Regenerate a new response for the last query.    Core
 ```
 
+Since you are using it as a standalone executable, the `/code post` command will not work. It is
+designed for the sidecar experience with PowerShell 7. See
+[Get started with AIShell in PowerShell](get-started-powershell.md) for more information.
+
 ### Key bindings for commands
 
 AIShell has key bindings for the `/code` command. They key bindings are currently hard-coded, but
@@ -84,4 +93,4 @@ custom key bindings will be supported in a future release.
 | <kbd>Ctrl</kbd>+<kbd>\<n\></kbd>              | `/code copy <n>` | Copy the _n-th_ generated code snippet to clipboard |
 
 <!-- link references -->
-[01]: media/SwitchingAgents.gif
+[01]: media/standaloneStartup.gif
