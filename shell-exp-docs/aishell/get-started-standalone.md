@@ -12,8 +12,8 @@ examples to get started with AIShell.
 
 ## Starting AIShell
 
-Run the `aish` command in the shell of your choice. AIShell starts in a new full screen shell window
-and prompts you to choose an agent.
+Run the `aish` command in the shell of your choice. AIShell starts in a new terminal window and
+prompts you to choose an agent.
 
 ## Using AIShell
 
