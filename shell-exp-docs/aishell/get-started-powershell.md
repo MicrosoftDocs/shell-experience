@@ -19,15 +19,17 @@ Terminal. When AIShell starts, it prompts you to choose an agent.
 
 ## Using AIShell
 
-Now that you have selected an agent, you can begin chatting with it. The installed Azure OpenAI
-agent is configured to be a PowerShell expert. This means we've modified the AI system prompt
-to say it should act like a PowerShell expert. It's not trained on any specific PowerShell code or
-documentation. In the final version, you must configure the agent with your endpoint, API keys,
-and system prompt before using it. For this walkthrough, we've performed these steps for you.
+If you plan to use the Azure OpenAI agent, you will have to configure it with your endpoint, API
+keys, and system prompt before using it. You can do so by selecting the agent and then running
+`/agent config`. Within the JSON config file that is opened you will have to provide your endpoint,
+deployment name, model version and API key. You can configure the system prompt property to better
+ground the model to your specific use cases, the default included is for a PowerShell expert.
+Additionally if you wish you use OpenAI you can configure the agent with just your API key from
+OpenAI in the commented out example in the JSON file.
 
 The Azure agent is designed to bring the Copilot in Azure experience directly to your command line.
 It provides assistance for Azure CLI and Azure PowerShell commands. To use this agent, you need to
-sign into Azure using the `az login` or `Connect-AzAccount` commands.
+sign into Azure using the `az login` command from Azure CLI.
 
 ## Use AIShell to interact with the agents
 

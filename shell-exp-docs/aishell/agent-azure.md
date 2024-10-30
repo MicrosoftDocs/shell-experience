@@ -5,13 +5,15 @@ ms.date: 10/29/2024
 ---
 # Azure Agent
 
-No admin permissions are needed in Azure to use this agent.
+This agent is designed to connect you to the [**Copilot in Azure**][02] experience directly from your command
+line. It provides assistance for Azure CLI and Azure PowerShell commands. To use this agent, you
+need to sign into Azure using the `az login` command from Azure CLI.
 
 ## Prerequisites
 
 - Windows 11 21H2 or higher
 - Windows Terminal v1.19  or higher
-- [Azure CLI][01] and [Azure PowerShell][02] installed and logged into the allowed tenant
+- [Azure CLI][01] installed and logged into the allowed tenant
 - PowerShell 7.4 or higher installed
 
 <!-- TO DO
@@ -20,4 +22,4 @@ No admin permissions are needed in Azure to use this agent.
 
 <!-- link references -->
 [01]: /cli/azure/install-azure-cli
-[02]: /powershell/azure/install-azps-windows
+[02]: https://azure.microsoft.com/products/copilot

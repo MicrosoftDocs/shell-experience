@@ -17,14 +17,13 @@ and prompts you to choose an agent.
 
 ## Using AIShell
 
-Now that you have selected an agent, you can begin chatting with it. If you plan to use the Azure
-OpenAI agent, you will have to configure it with your endpoint, API keys, and system prompt before
-using it. You can do so by selecting the agent and then running `/agent config`. Within the JSON
-config file that is opened you will have to provide your endpoint, deployment name, model version
-and API key. You can configure the system prompt property to better ground the model to your
-specific use cases, the default included is for a PowerShell expert. Additionally if you wish you
-use OpenAI you can configure the agent with just your API key from OpenAI in the commented out
-example in the JSON file.
+If you plan to use the Azure OpenAI agent, you will have to configure it with your endpoint, API
+keys, and system prompt before using it. You can do so by selecting the agent and then running
+`/agent config`. Within the JSON config file that is opened you will have to provide your endpoint,
+deployment name, model version and API key. You can configure the system prompt property to better
+ground the model to your specific use cases, the default included is for a PowerShell expert.
+Additionally if you wish you use OpenAI you can configure the agent with just your API key from
+OpenAI in the commented out example in the JSON file.
 
 ![An animation showing Getting Started with AIShell.][01]
 
