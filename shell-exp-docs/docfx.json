@@ -2,14 +2,14 @@
   "build": {
     "content": [
       {
-        "files": ["**/*.md","**/*.yml"],
-        "exclude": ["**/obj/**","**/includes/**","_themes/**","**/docfx.json","_repo.en-us/**"]
+        "files": ["**/*.md", "**/*.yml"],
+        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "**/docfx.json", "_repo.en-us/**"]
       }
     ],
     "resource": [
       {
-        "files": ["**/*.gif","**/*.svg","**/*.png","**/*.jpg"],
-        "exclude": ["**/obj/**","**/includes/**","_themes/**","**/docfx.json","_repo.en-us/**"]
+        "files": ["**/*.gif", "**/*.svg", "**/*.png", "**/*.jpg"],
+        "exclude": ["**/obj/**", "**/includes/**", "_themes/**", "**/docfx.json", "_repo.en-us/**"]
       }
     ],
     "overwrite": [],
