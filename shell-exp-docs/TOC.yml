@@ -1,4 +1,4 @@
-- name: Index
+- name: What is a shell?
   href: index.md
 - name: AIShell
   href: aishell/toc.yml
