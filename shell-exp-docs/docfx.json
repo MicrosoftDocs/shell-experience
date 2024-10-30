@@ -2,47 +2,35 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "**/docfx.json",
-          "_repo.en-us/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices.md",
-          "SECURITY.md"
-        ]
+        "files": ["**/*.md","**/*.yml"],
+        "exclude": ["**/obj/**","**/includes/**","_themes/**","**/docfx.json","_repo.en-us/**"]
       }
     ],
     "resource": [
       {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "**/docfx.json",
-          "_repo.en-us/**"
-        ]
+        "files": ["**/*.gif","**/*.svg","**/*.png","**/*.jpg"],
+        "exclude": ["**/obj/**","**/includes/**","_themes/**","**/docfx.json","_repo.en-us/**"]
       }
     ],
     "overwrite": [],
     "externalReference": [],
+    "fileMetadata": {},
     "globalMetadata": {
+      "ROBOTS": "INDEX, FOLLOW",
       "breadcrumb_path": "~/breadcrumb/shell-exp-docs/toc.yml",
       "feedback_system": "Standard",
-      "permissioned-type": "public"
+      "permissioned-type": "public",
+      "hideScope": false,
+      "author": "sdwheeler",
+      "ms.author": "sewhee",
+      "manager": "jasongroce",
+      "ms.service": "powershell",
+      "ms.topic": "conceptual",
+      "ms.tgt_pltfr": "windows, macos, linux",
+      "social_image_url": "https://learn.microsoft.com/media/logos/logo-powershell-social.png",
+      "toc_preview": true,
+      "uhfHeaderId": "MSDocsHeader-Powershell"
     },
-    "fileMetadata": {},
     "template": []
   }
 }
