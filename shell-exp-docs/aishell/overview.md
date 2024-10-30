@@ -2,6 +2,7 @@
 title: What is AIShell?
 description: Learn about AIShell, an interactive shell that provides a chat interface with language models.
 ms.date: 10/29/2024
+ms.topic: overview
 ---
 
 # What is AIShell?

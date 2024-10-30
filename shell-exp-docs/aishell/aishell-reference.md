@@ -2,6 +2,7 @@
 title: AIShell command reference
 description: Learn about the command-line options and commands available in AIShell.
 ms.date: 10/29/2024
+ms.topic: reference
 ---
 # AIShell command reference
 

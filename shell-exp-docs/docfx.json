@@ -25,6 +25,7 @@
       "ms.author": "sewhee",
       "manager": "jasongroce",
       "ms.service": "powershell",
+      "ms.topic": "conceptual",
       "ms.tgt_pltfr": "windows, macos, linux",
       "social_image_url": "https://learn.microsoft.com/media/logos/logo-powershell-social.png",
       "toc_preview": true,

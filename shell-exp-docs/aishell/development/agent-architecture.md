@@ -2,6 +2,7 @@
 title: Architecture of AIShell
 description: This article explains the architecture of AIShell and API required to support agents.
 ms.date: 10/29/2024
+ms.topic: concept-article
 ---
 
 # AI Shell architecture

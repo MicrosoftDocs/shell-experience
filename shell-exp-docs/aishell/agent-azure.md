@@ -19,5 +19,5 @@ No admin permissions are needed in Azure to use this agent.
 -->
 
 <!-- link references -->
-[01]: https://docs.microsoft.com/cli/azure/install-azure-cli
-[02]: https://learn.microsoft.com/powershell/azure/install-azps-windows
+[01]: /cli/azure/install-azure-cli
+[02]: /powershell/azure/install-azps-windows

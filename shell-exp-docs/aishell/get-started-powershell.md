@@ -2,6 +2,7 @@
 description: This article explains how to install and configure AIShell, and get started chatting with an AI assistant in PowerShell.
 ms.date: 10/29/2024
 title: Get started with AIShell in PowerShell
+ms.topic: get-started
 ---
 # Get started with AIShell in PowerShell
 

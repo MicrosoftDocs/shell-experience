@@ -2,6 +2,7 @@
 title: OpenAI agent README
 description: Learn how to use the OpenAI agent in AIShell.
 ms.date: 10/29/2024
+ms.topic: how-to
 ---
 # OpenAI Agent
 
@@ -99,6 +100,6 @@ and then update the file based on the following example.
 
 <!-- link references -->
 [01]: https://aka.ms/oai/access?azure-portal=true
-[02]: https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal
+[02]: /azure/ai-services/openai/how-to/create-resource?pivots=web-portal
 [03]: https://platform.openai.com/api-keys
 [04]: https://platform.openai.com/docs/models

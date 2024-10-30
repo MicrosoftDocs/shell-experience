@@ -2,6 +2,7 @@
 title: How to create an agent for Ollama
 description: Learn how to create an agent for the Ollama language model in AIShell.
 ms.date: 10/29/2024
+ms.topic: how-to
 ---
 
 # Creating an Agent

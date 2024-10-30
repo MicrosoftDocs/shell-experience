@@ -2,6 +2,7 @@
 title: AIShell FAQ
 description: Get answers to common questions about AIShell.
 ms.date: 10/29/2024
+ms.topic: faq
 ---
 
 # Frequently Asked Questions

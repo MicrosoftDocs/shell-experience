@@ -2,6 +2,7 @@
 title: Install AIShell
 description: Learn how to install AIShell on your system.
 ms.date: 10/29/2024
+ms.topic: install-set-up-deploy
 ---
 # Install AIShell
 
