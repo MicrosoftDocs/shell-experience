@@ -8,7 +8,7 @@ ms.topic: how-to
 
 This agent is designed to provide a flexible and user-friendly platform for interacting with OpenAI
 services, either the public OpenAI service or a private deployment of the Azure OpenAI service,
-through one or more customly defined GPT instances.
+through one or more custom defined GPT instances.
 
 ## GPT
 
