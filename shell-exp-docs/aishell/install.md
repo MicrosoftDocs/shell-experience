@@ -50,7 +50,7 @@ AIShell is supported on the following platforms:
 ### [Windows](#tab/windows)
 
 1. Download the latest version from the
-   [GitHub releases page](https://github.com/PowerShell/ProjectMercury/releases/latest).
+   [GitHub releases page][03].
 1. Install the AIShell module from the PowerShell Gallery.
 
    ```powershell
@@ -59,7 +59,8 @@ AIShell is supported on the following platforms:
 
 ### [macOS](#tab/macos)
 
-1. Insert brew steps here.
+1. Download the latest version from the
+   [GitHub releases page][03].
 1. Install the AIShell module from the PowerShell Gallery.
 
    ```powershell
@@ -68,7 +69,8 @@ AIShell is supported on the following platforms:
 
 ### [Linux](#tab/linux)
 
-1. Insert Linux steps here.
+1. Download the latest version from the
+   [GitHub releases page][03].
 
 <!-- markdownlint-enable MD023 MD024 MD051 -->
 
@@ -76,5 +78,10 @@ AIShell is supported on the following platforms:
 
 ## Next steps
 
-- [Get started with AIShell](get-started-standalone.md)
-- [Get started with AIShell for PowerShell](get-started-powershell.md)
+- [Get started with AIShell][02]
+- [Get started with AIShell for PowerShell][01]
+
+<!-- link references -->
+[01]: get-started-powershell.md
+[02]: get-started-standalone.md
+[03]: https://github.com/PowerShell/ProjectMercury/releases/latest

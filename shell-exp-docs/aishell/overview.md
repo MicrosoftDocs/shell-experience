@@ -23,7 +23,7 @@ Each AI assistant is known as an agent. The initial release of AIShell includes 
 
 - **Azure OpenAI** agent that connects to an instance of **gpt-4o**. Use this agent for general
   AI tasks.
-- **Azure command** agent that can assist with Azure CLI commands. Use the Azure agent for
+- **Copilot in Azure** agent that can assist with Microsoft Azure knowledge. Use the Azure agent for
   assistance with Azure CLI and Azure PowerShell commands.
 
 The AIShell executable (`aish.exe`) can be run in a standalone experience or in split-screen mode if
