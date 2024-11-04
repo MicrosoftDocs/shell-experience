@@ -6,12 +6,13 @@ ms.date: 10/29/2024
 # Copilot in Azure Agent
 
 This agent is designed to connect you to the [**Copilot in Azure**][02] experience directly from
-your command line. It provides assistance for Azure CLI commands, Azure PowerShell commands and
+your command line. It provides assistance for Azure CLI commands, Azure PowerShell commands, and
 general Azure knowledge. To use this agent, you need to sign into Azure using the `az login` command
 from Azure CLI.
 
-> [!NOTE] Currently, you can only use this tool using the login command from Azure CLI. We are
-> working on supporting the equivalent login command from Azure PowerShell.
+> [!IMPORTANT]
+> You must use sign into Azure using the Azure CLI command. We're working on supporting the
+> `Connect-AzAccount` command from Azure PowerShell.
 
 ## Prerequisites
 

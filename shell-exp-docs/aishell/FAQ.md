@@ -18,24 +18,25 @@ user experience for the LLM and are deeply connected to PowerShell 7. For more, 
 
 ## What operating systems are supported?
 
-We have tested on macOS and Windows operating systems. **AIShell** may work on linux but we
-haven't tested it can't guarantee that all features will work as expected.
+We've tested on macOS and Windows operating systems. **AIShell** may work on linux but we haven't
+tested it. We can't guarantee that all features will work as expected.
 
 ## What are the different ways I can use AIShell?
 
 You can use AIShell in two ways:
--   As a standalone application
--   As a split pane experience in PowerShell 7 and Windows Terminal
 
-You can get the split pane experience in other terminals and is based on the capabilities of your
-terminal. terminal. For example, Windows Terminal can be split by running the following command:
-`wt -w 0 sp`. Refer to the documentation for your terminal application to see if it supports this
-feature.
+- As a standalone application
+- As a split pane experience in PowerShell 7 and Windows Terminal
+
+The split pane experience is based on the capabilities of your terminal. terminal. For example, you
+can split the Windows Terminal pane by running the following command: `wt -w 0 sp`. Refer to the
+documentation for your terminal application to see if it supports this feature.
 
 > [!NOTE]
 > Not all terminal applications support this feature.
 
-We have made this experience easier when using PowerShell 7 and Windows Terminal. For more information see [Get started with AIShell in PowerShell](./get-started-powershell.md).
+We've made this experience easier when using PowerShell 7 and Windows Terminal. For more information
+see [Get started with AIShell in PowerShell][05].
 
 ## What is the difference between the standalone application and the split pane experience?
 
@@ -46,33 +47,31 @@ experience that can be used with any shell and has no such integration.
 
 ## What are AI agents?
 
-An agent is a library that implements the user interface that talks to a specific language
-model or other assistance provider. Users can interact with these agents in a conversational manner,
-using natural language, to get the desired output or assistance. Currently, these are the supported
-agents:
+An agent is a code library that implements the interfaces that talk to a specific language model or
+assistance provider. An assistance provider is an agent that provides user assistance without using
+a language model or AI engine.
 
-Agent README files:
+We currently support the following agents:
 
-- [`azure`][01]
-- [`openai-gpt`][02]
+- [**Copilot in Azure**][01]
+- [**Azure OpenAI**][02]
 
-An assistance provider is an agent that provides user assistance without using a language
-model or AI engine.
+Users interact with these agents using natural language in a conversational manner.
 
 ## How do I create an agent?
 
-To create an agent, you need to implement the `IAgent` interface. You can refer to the page [Create an Ollama Agent][04] for more details on how to create an agent.
+To create an agent, you need to implement the `IAgent` interface. For more information, see
+[Create an Ollama Agent][04] for the details of creating an agent.
 
 ## How do I share my agent or find other community built agents?
 
-Currently there is not a centralized repository for sharing and utilizing community built agents. In
-the interim, we recommend sharing it on the [discussions page][05] of the Project Mercury
-repository.
-
+There isn't a centralized repository for sharing community built agents. In the interim, we
+recommend sharing it on the [discussions page][06] of the Project Mercury repository.
 
 <!-- link references -->
 [01]: agent-azure.md
 [02]: agent-openai.md
 [03]: developer/agent-architecture.md
 [04]: developer/create-ollama-agent.md
-[05]: https://github.com/PowerShell/ProjectMercury/discussions/categories/agent-sharing
+[05]: get-started-powershell.md
+[06]: https://github.com/PowerShell/ProjectMercury/discussions/categories/agent-sharing
