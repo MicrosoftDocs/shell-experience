@@ -59,7 +59,8 @@ AIShell is supported on the following platforms:
 
 ### [macOS](#tab/macos)
 
-1. Insert brew steps here.
+1. Download the latest version from the
+   [GitHub releases page](https://github.com/PowerShell/ProjectMercury/releases/latest).
 1. Install the AIShell module from the PowerShell Gallery.
 
    ```powershell
@@ -68,7 +69,8 @@ AIShell is supported on the following platforms:
 
 ### [Linux](#tab/linux)
 
-1. Insert Linux steps here.
+1. Download the latest version from the
+   [GitHub releases page](https://github.com/PowerShell/ProjectMercury/releases/latest).
 
 <!-- markdownlint-enable MD023 MD024 MD051 -->
 
