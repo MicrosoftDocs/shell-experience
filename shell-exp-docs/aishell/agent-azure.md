@@ -63,6 +63,7 @@ available settings are:
   "telemetry": true
 }
 ```
+
 ### Logging
 When logging is enabled, logs will be saved in the `~\.aish\agent-config\azure` directory. If you
 change the setting to be false then no logging will take place.
