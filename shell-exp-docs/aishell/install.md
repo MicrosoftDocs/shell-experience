@@ -14,6 +14,8 @@ packages you need to install to have a complete AIShell experience.
 
 This article explains how to install these packages on your system.
 
+<!-- TODO add details for an installer script for users to run and bypass most of the steps -->
+
 ## System requirements
 
 AIShell is supported on the following platforms:
