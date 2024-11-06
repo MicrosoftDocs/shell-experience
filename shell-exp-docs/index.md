@@ -26,11 +26,16 @@ may also include advanced features such as:
 
 The following list contains some examples of terminal applications:
 
-- [Windows Terminal](/windows/terminal)
-- [Windows Console Host](/windows/console/consoles)
-- [Terminal for macOS](https://support.apple.com/guide/terminal/welcome/mac)
-- [iTerm2 for macOS](https://iterm2.com/)
-- [Cloud Shell](/azure/cloud-shell/overview)
+- [Windows Terminal](/windows/terminal) - a modern terminal application for Windows that can host
+  multiple shells.
+- [Windows Console Host](/windows/console/consoles) - the default host application on Windows
+  for text-based applications. It can also host the Windows Command Shell or PowerShell.
+- [Terminal for macOS](https://support.apple.com/guide/terminal/welcome/mac) - the default terminal
+  application on macOS that can host the bash or zsh shell.
+- [iTerm2 for macOS](https://iterm2.com/) - a popular 3rd-party terminal application for macOS.
+- [Azure Cloud Shell](/azure/cloud-shell/overview) - a browser-based terminal application that is
+  hosted in Microsoft Azure. Azure Cloud shell gives you the choice of using bash or PowerShell and
+  come preconfigured with many command-line tools to manage Azure resources.
 
 ## General purpose command shells
 
