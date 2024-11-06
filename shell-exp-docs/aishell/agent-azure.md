@@ -7,18 +7,18 @@ ms.date: 10/29/2024
 
 This agent is designed to connect you to the [**Copilot in Azure**][02] experience directly from
 your command line. It provides assistance for Azure CLI commands, Azure PowerShell commands, and
-general Azure knowledge. To use this agent, you need to sign into Azure using the `az login` command
-from Azure CLI.
+general Azure knowledge. To use this agent, you need to sign in to Azure using the `az login`
+command from Azure CLI.
 
 > [!IMPORTANT]
-> You must use sign into Azure using the Azure CLI command. We're working on supporting the
+> You must use sign in to Azure using the Azure CLI command. We're working on supporting the
 > `Connect-AzAccount` command from Azure PowerShell.
 
 ## Prerequisites
 
 - Windows 11 21H2 or higher
 - Windows Terminal v1.19  or higher
-- [Azure CLI][01] installed and logged into the allowed tenant
+- [Azure CLI][01] installed and signed in to the allowed tenant
 
 ## Sample Questions
 
@@ -29,33 +29,32 @@ from Azure CLI.
 
 ## Known issues
 
-Below are some known issues with the Azure agent that we are actively working on addressing:
+This preview release has some known issues with the Azure agent that we're actively working on
+addressing:
 
-- The `Connect-AzAccount` command for authentication from Azure PowerShell is not supported. You must use the `az login`
-  command from Azure CLI to sign in.
+- The `Connect-AzAccount` command for authentication from Azure PowerShell isn't supported. You
+  must use the `az login` command from Azure CLI to sign in.
 
 ## Telemetry
 
-The **Copilot in Azure** agent captures minor telemetry to help us improve the product experience.
-This data collection is limited in scope and only captures detailed telemetry when you consent to
-sharing your chat history. We will only capture your chat history when you use a `/like` or
-`/dislike` command and consent to sharing your chat history.
+The **Copilot in Azure** agent captures a small set of telemetry data. The telemetry data captured
+contains no personal identifiable information. The agent only captures product usage data to help us
+improve the product experience.
 
-During usage, the agent will capture the following information:
+When you allow telemetry, the agent only collects the following information:
+
 - The `/` command that you used
-- The count of number of questions asked
+- The number of questions asked
 - The type of operating system used
 - Any exceptions encountered during usage
-- Details provided when using `/like` or `/dislike` commands
+- The details provided using the `/like` or `/dislike` commands
 
-You can disable this telemetry from being captured by modifying the `telemetry` property in the
-configuration file. See the details below.
+You can disable this telemetry by modifying the `telemetry` property in the configuration file.
 
 ## Agent Configuration
 
-There are some minor configuration settings that can be set for the Azure agent. You can view and
-edit the JSON config file by running `/agent config` while using the Copilot in Azure Agent. The
-available settings are:
+The Azure agent configuration is stored in a JSON file. You can view and edit the JSON config file
+by using the `/agent config` command in AIShell. The available settings are:
 
 ```json
 {
@@ -64,14 +63,9 @@ available settings are:
 }
 ```
 
-### Logging
-When logging is enabled, logs will be saved in the `~\.aish\agent-config\azure` directory. If you
-change the setting to be false then no logging will take place.
-
-### Telemetry
-Turning the telemetry property to false will disable all telemetry for the agent. All telemetry
-captured by default does not contain any personal identifiable information and only captures product
-usage data to help us improve the product experience. See the above for additional details.
+When logging is enabled, the agent writes logs in the `~/.aish/agent-config/azure` directory. To
+disable logging, set the **logging** property to `false`. To disable telemetry, set the
+**telemetry** property to `false`.
 
 <!-- link references -->
 [01]: /cli/azure/install-azure-cli
