@@ -15,7 +15,19 @@ functions.
 
 ## Terminals
 
+A terminal is an application that provides a text-based interface for hosting command shells. Some
+terminals are designed to work with a specific shell, while others can host multiple shells. They
+may also include advanced features such as:
+
+- Ability to create multiple panes within a single window
+- Ability to create multiple tabs to host multiple shells shells
+- Ability to change color schemes and fonts
+- Support for copy and paste operations
+
+The following list contains some examples of terminal applications:
+
 - [Windows Terminal](/windows/terminal)
+- [Windows Console Host](/windows/console/consoles)
 - [Terminal for macOS](https://support.apple.com/guide/terminal/welcome/mac)
 - [iTerm2 for macOS](https://iterm2.com/)
 - [Cloud Shell](/azure/cloud-shell/overview)
@@ -24,7 +36,7 @@ functions.
 
 General purpose command shells are designed to work with the operating system. These shell allow you
 to run any command that the operating system supports. They also include shell-specific commands and
-programming features.
+programming features. The following list contains some examples of general purpose command shells:
 
 - [PowerShell](/powershell/scripting/overview)
 - [Windows Command Shell](/windows-server/administration/windows-commands/cmd)
@@ -62,4 +74,4 @@ programs.
   collection of command-line tools that are built into Windows.
 
 In general, command-line tools don't provide a command shell (REPL) interface. The `netsh` command
-in Windows is an exception, as it is both a command-line tool and a an interactive command shell.
+in Windows is an exception, as it's both a command-line tool and a an interactive command shell.
