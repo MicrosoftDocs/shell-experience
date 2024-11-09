@@ -1,16 +1,16 @@
 ---
-title: Install AIShell
-description: Learn how to install AIShell on your system.
+title: Install AI Shell
+description: Learn how to install AI Shell on your system.
 ms.date: 10/29/2024
 ms.topic: install-set-up-deploy
 ---
-# Install AIShell
+# Install AI Shell
 
-AIShell is an interactive shell that provides a chat interface with language models. There are
-packages you need to install to have a complete AIShell experience.
+AI Shell is an interactive shell that provides a chat interface with language models. There are
+packages you need to install to have a complete AI Shell experience.
 
 - The command-line shell (`aish`) interface
-- The AIShell module for PowerShell
+- The AI Shell module for PowerShell
 
 This article explains how to install these packages on your system.
 
@@ -18,7 +18,7 @@ This article explains how to install these packages on your system.
 
 ## System requirements
 
-AIShell is supported on the following platforms:
+AI Shell is supported on the following platforms:
 
 <!-- markdownlint-disable MD023 MD024 MD051 -->
 ### [Windows](#tab/windows)
@@ -40,20 +40,20 @@ AIShell is supported on the following platforms:
 - Any terminal emulator supported by the OS
 
   > [!NOTE]
-  > The AIShell module isn't supported on Linux.
+  > The AI Shell module isn't supported on Linux.
 
 <!-- markdownlint-enable MD023 MD024 MD051 -->
 
 ---
 
-## Install AIShell
+## Install AI Shell
 
 <!-- markdownlint-disable MD023 MD024 MD051 -->
 ### [Windows](#tab/windows)
 
 1. Download the latest version from the
    [GitHub releases page][03].
-1. Install the AIShell module from the PowerShell Gallery.
+1. Install the AI Shell module from the PowerShell Gallery.
 
    ```powershell
    Install-PSResource -Name AIShell
@@ -63,7 +63,7 @@ AIShell is supported on the following platforms:
 
 1. Download the latest version from the
    [GitHub releases page][03].
-1. Install the AIShell module from the PowerShell Gallery.
+1. Install the AI Shell module from the PowerShell Gallery.
 
    ```powershell
    Install-PSResource -Name AIShell
@@ -80,8 +80,8 @@ AIShell is supported on the following platforms:
 
 ## Next steps
 
-- [Get started with AIShell][02]
-- [Get started with AIShell for PowerShell][01]
+- [Get started with AI Shell][02]
+- [Get started with AI Shell for PowerShell][01]
 
 <!-- link references -->
 [01]: get-started-powershell.md

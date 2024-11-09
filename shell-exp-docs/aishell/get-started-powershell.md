@@ -1,23 +1,23 @@
 ---
-description: This article explains how to install and configure AIShell, and get started chatting with an AI assistant in PowerShell.
+description: This article explains how to install and configure AI Shell, and get started chatting with an AI assistant in PowerShell.
 ms.date: 10/29/2024
-title: Get started with AIShell in PowerShell
+title: Get started with AI Shell in PowerShell
 ms.topic: get-started
 ---
-# Get started with AIShell in PowerShell
+# Get started with AI Shell in PowerShell
 
-AIShell was created to help command line users find the right commands to use, recover from errors,
+AI Shell was created to help command line users find the right commands to use, recover from errors,
 and better understand the commands and the output they produce. Follow along and walk through some
-examples to get started with AIShell.
+examples to get started with AI Shell.
 
-## Starting AIShell
+## Starting AI Shell
 
-Use the `Start-AIShell` command in the **AIShell** module to open a split pane experience in Windows
-Terminal. When AIShell starts, it prompts you to choose an agent.
+Use the `Start-AIShell` command in the **AI Shell** module to open a split pane experience in Windows
+Terminal. When AI Shell starts, it prompts you to choose an agent.
 
-![An animation showing Getting Started with AIShell.][01]
+![An animation showing Getting Started with AI Shell.][01]
 
-## Using AIShell
+## Using AI Shell
 
 If you plan to use the Azure OpenAI agent, you will have to configure it with your endpoint, API
 keys, and system prompt before using it. You can do so by selecting the agent and then running
@@ -31,7 +31,7 @@ The Azure agent is designed to bring the Copilot in Azure experience directly to
 It provides assistance for Azure CLI and Azure PowerShell commands. To use this agent, you need to
 sign into Azure using the `az login` command from Azure CLI.
 
-## Use AIShell to interact with the agents
+## Use AI Shell to interact with the agents
 
 Use these sample queries with each agent.
 
@@ -88,11 +88,11 @@ the code from the response into the working shell. This is the simplest way to q
 you need to run in your shell. You can also use the hot key <kbd>Ctrl</kbd>+<kbd>d</kbd>,
 <kbd>Ctrl</kbd>+<kbd>d</kbd> to insert the code into the working shell.
 
-![An animation showing Inserting Code with AIShell.][03]
+![An animation showing Inserting Code with AI Shell.][03]
 
 ### Key bindings for commands
 
-AIShell has key bindings for the `/code` command. They key bindings are currently hard-coded, but
+AI Shell has key bindings for the `/code` command. They key bindings are currently hard-coded, but
 custom key bindings will be supported in a future release.
 
 |                       Key bindings                       |     Command      |                            Functionality                            |
@@ -105,14 +105,14 @@ custom key bindings will be supported in a future release.
 ### Resolving Errors
 
 If you encounter an error in your working terminal, you can use the `Resolve-Error` cmdlet to send
-that error to the open AIShell window for resolution. This command asks the AI model to help you
+that error to the open AI Shell window for resolution. This command asks the AI model to help you
 resolve the error.
 
-![An animation showing Resolving Errors with AIShell.][05]
+![An animation showing Resolving Errors with AI Shell.][05]
 
-### Invoking AIShell
+### Invoking AI Shell
 
-You can use the `Invoke-AIShell` cmdlet to send queries to the current agent in the open AIShell window.
+You can use the `Invoke-AIShell` cmdlet to send queries to the current agent in the open AI Shell window.
 This command allows you to interact with the AI model from your working terminal.
 
 ![An animation using Invoke-AIShell.][04]

@@ -1,6 +1,6 @@
 ---
 title: OpenAI agent README
-description: Learn how to use the OpenAI agent in AIShell.
+description: Learn how to use the OpenAI agent in AI Shell.
 ms.date: 10/29/2024
 ms.topic: how-to
 ---
