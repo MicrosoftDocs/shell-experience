@@ -53,7 +53,7 @@ This current release of AI Shell has some known issues that we're actively worki
 - If you have multiple versions of Windows Terminal installed, the `Start-AIShell` command opens a
   new terminal window running a different version of Windows Terminal.
 - If you started Window Terminal as an administrator, the `Start-AIShell` command opens a new
-  termnial window runing Windows Terminal without elevation.
+  terminal window running Windows Terminal without elevation.
 
 If you encounter any other issues, please report them.
 
