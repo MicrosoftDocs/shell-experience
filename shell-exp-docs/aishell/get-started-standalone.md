@@ -1,21 +1,21 @@
 ---
-description: This article explains how to install and configure AIShell, and get started chatting with an AI assistant.
+description: This article explains how to install and configure AI Shell, and get started chatting with an AI assistant.
 ms.date: 10/29/2024
-title: Get started with AIShell
+title: Get started with AI Shell
 ms.topic: get-started
 ---
-# Get started with AIShell
+# Get started with AI Shell
 
-AIShell was created to help command line users find the right commands to use, recover from errors,
+AI Shell was created to help command line users find the right commands to use, recover from errors,
 and better understand the commands and the output they produce. Follow along and walk through some
-examples to get started with AIShell.
+examples to get started with AI Shell.
 
-## Starting AIShell
+## Starting AI Shell
 
-Run the `aish` command in the shell of your choice. AIShell starts in a new terminal window and
+Run the `aish` command in the shell of your choice. AI Shell starts in a new terminal window and
 prompts you to choose an agent.
 
-## Using AIShell
+## Using AI Shell
 
 If you plan to use the Azure OpenAI agent, you will have to configure it with your endpoint, API
 keys, and system prompt before using it. You can do so by selecting the agent and then running
@@ -25,13 +25,13 @@ ground the model to your specific use cases, the default included is for a Power
 Additionally if you wish you use OpenAI you can configure the agent with just your API key from
 OpenAI in the commented out example in the JSON file.
 
-![An animation showing Getting Started with AIShell.][01]
+![An animation showing Getting Started with AI Shell.][01]
 
 The Azure agent is designed to bring the Copilot in Azure experience directly to your command line.
 It provides assistance for Azure CLI and Azure PowerShell commands. To use this agent, you need to
 sign into Azure using the `az login` command from Azure CLI.
 
-## Use AIShell to interact with the agents
+## Use AI Shell to interact with the agents
 
 Use these sample queries with each agent.
 
@@ -79,11 +79,11 @@ list of commands, use the `/help` command in the chat session.
 
 Since you are using it as a standalone executable, the `/code post` command will not work. It is
 designed for the sidecar experience with PowerShell 7. See
-[Get started with AIShell in PowerShell](get-started-powershell.md) for more information.
+[Get started with AI Shell in PowerShell](get-started-powershell.md) for more information.
 
 ### Key bindings for commands
 
-AIShell has key bindings for the `/code` command. They key bindings are currently hard-coded, but
+AI Shell has key bindings for the `/code` command. They key bindings are currently hard-coded, but
 custom key bindings will be supported in a future release.
 
 |                  Key binding                  |     Command      |                     Description                     |

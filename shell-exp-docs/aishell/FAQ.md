@@ -1,29 +1,29 @@
 ---
-title: AIShell FAQ
-description: Get answers to common questions about AIShell.
+title: AI Shell FAQ
+description: Get answers to common questions about AI Shell.
 ms.date: 10/29/2024
 ms.topic: faq
 ---
 
 # Frequently Asked Questions
 
-This page provides help with common questions about AIShell, also known as Project Mercury.
+This page provides help with common questions about AI Shell, also known as Project Mercury.
 
 ## What is Project Mercury?
 
-**Project Mercury** was the code name for AIShell and is a platform that provides a framework for
+**Project Mercury** was the code name for AI Shell and is a platform that provides a framework for
 developers to build their own AI Agents and assistance providers for an AI Shell. Agents provide the
 user experience for the LLM and are deeply connected to PowerShell 7. For more, see the
-[AIShell architecture][03].
+[AI Shell architecture][03].
 
 ## What operating systems are supported?
 
-We've tested on macOS and Windows operating systems. **AIShell** may work on linux but we haven't
+We've tested on macOS and Windows operating systems. **AI Shell** may work on linux but we haven't
 tested it. We can't guarantee that all features will work as expected.
 
-## What are the different ways I can use AIShell?
+## What are the different ways I can use AI Shell?
 
-You can use AIShell in two ways:
+You can use AI Shell in two ways:
 
 - As a standalone application
 - As a split pane experience in PowerShell 7 and Windows Terminal
@@ -36,7 +36,7 @@ documentation for your terminal application to see if it supports this feature.
 > Not all terminal applications support this feature.
 
 We've made this experience easier when using PowerShell 7 and Windows Terminal. For more information
-see [Get started with AIShell in PowerShell][05].
+see [Get started with AI Shell in PowerShell][05].
 
 ## What is the difference between the standalone application and the split pane experience?
 

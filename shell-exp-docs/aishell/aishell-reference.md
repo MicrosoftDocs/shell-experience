@@ -1,10 +1,10 @@
 ---
-title: AIShell command reference
-description: Learn about the command-line options and commands available in AIShell.
+title: AI Shell command reference
+description: Learn about the command-line options and commands available in AI Shell.
 ms.date: 10/29/2024
 ms.topic: reference
 ---
-# AIShell command reference
+# AI Shell command reference
 
 ## Command-line options
 
@@ -22,7 +22,7 @@ Options:
   --channel <channel>              A named pipe used to setup communication
                                    between aish and the command-line shell.
   --shell-wrapper <shell-wrapper>  Path to the configuration file to wrap
-                                   AIShell as a different application.
+                                   AI Shell as a different application.
   --version                        Show version information
   -?, -h, --help                   Show help and usage information
 ```
