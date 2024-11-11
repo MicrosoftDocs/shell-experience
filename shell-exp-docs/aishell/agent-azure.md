@@ -1,6 +1,6 @@
 ---
 title: Azure agent README
-description: Learn how to use the Azure agent in AIShell.
+description: Learn how to use the Azure agent in AI Shell.
 ms.date: 10/29/2024
 ---
 # Copilot in Azure Agent
@@ -54,7 +54,7 @@ You can disable this telemetry by modifying the `telemetry` property in the conf
 ## Agent Configuration
 
 The Azure agent configuration is stored in a JSON file. You can view and edit the JSON config file
-by using the `/agent config` command in AIShell. The available settings are:
+by using the `/agent config` command in AI Shell. The available settings are:
 
 ```json
 {
