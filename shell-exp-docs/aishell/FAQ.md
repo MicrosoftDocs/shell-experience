@@ -1,7 +1,7 @@
 ---
 title: AI Shell FAQ
 description: Get answers to common questions about AI Shell.
-ms.date: 10/29/2024
+ms.date: 11/11/2024
 ms.topic: faq
 ---
 
@@ -11,9 +11,9 @@ This page provides help with common questions about AI Shell, also known as Proj
 
 ## What is Project Mercury?
 
-**Project Mercury** was the code name for AI Shell and is a platform that provides a framework for
-developers to build their own AI Agents and assistance providers for an AI Shell. Agents provide the
-user experience for the LLM and are deeply connected to PowerShell 7. For more, see the
+**Project Mercury** was the code name for the project that created AI Shell. AI Shell includes a
+framework for building your own AI Agents and assistance providers for an AI Shell. Agents provide
+the user interface for interacting with LLMs and integrating with PowerShell 7. For more, see the
 [AI Shell architecture][03].
 
 ## What operating systems are supported?
@@ -53,8 +53,8 @@ a language model or AI engine.
 
 We currently support the following agents:
 
-- [**Copilot in Azure**][01]
-- [**Azure OpenAI**][02]
+- **openai-gpt** - an agent for [**Azure OpenAI**][02]
+- **azure** - an agent for [**Copilot in Azure**][01]
 
 Users interact with these agents using natural language in a conversational manner.
 

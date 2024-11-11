@@ -1,7 +1,7 @@
 ---
 title: OpenAI agent README
 description: Learn how to use the OpenAI agent in AI Shell.
-ms.date: 10/29/2024
+ms.date: 11/11/2024
 ms.topic: how-to
 ---
 # OpenAI Agent
@@ -28,7 +28,7 @@ The command `/gpt` is provided to make it easy to manage the GPTs.
   available GPTs.
 
 ```shell
-aish:1> /gpt --help
+@openai-gpt> /gpt --help
 Description:
   Command for GPT management within the 'openai-gpt' agent.
 
@@ -49,7 +49,8 @@ Commands:
   - [OpenAI API Key][03]
   - [OpenAI Model][04]
 
-- For Azure OpenAI Service, you need the **Endpoint**, **Deployment Name**, **Model Name**, and **API Key** to use the agent.
+- For Azure OpenAI Service, you need the **Endpoint**, **Deployment Name**, **Model Name**, and
+  **API Key** to use the agent.
   - [Access to Azure OpenAI][01]
   - [Create an Azure OpenAI deployment][02]
 
